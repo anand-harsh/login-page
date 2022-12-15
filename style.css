@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #fcde67;
+    background-color: #edcb97;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -119,3 +119,15 @@ body {
     flex-wrap: wrap;
     font-size: 30px;
 }
+
+.welcome .logout-btn{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: red;
+    background-color: white;
+    border-radius: 2px;
+    box-sizing: 20px;
+    text-decoration: none;
+}
+

@@ -21,6 +21,13 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
 	
-	<h1>Welcome User</h1>
+	<h1 class="welcome">Welcome 
+		<?php echo $_SESSION['username']?>
+		<h2><a class="logout-btn" href="logout.php">Logout</a></h2>
+	</h1>
+
+
+    
+
 </body>
 </html>
